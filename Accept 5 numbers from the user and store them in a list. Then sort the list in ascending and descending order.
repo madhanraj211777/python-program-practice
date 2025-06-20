@@ -1,0 +1,10 @@
+l=[]
+c=0
+while(len(l)<5):
+    a=int(input("enter the element:"))
+    l.append(a)
+    c=c+1
+l.sort()
+print("ascending order:",l)
+l.sort(reverse=True)
+print(" descending order:",l)
