@@ -1,0 +1,12 @@
+l=[3,5,1,4,6,3,6,7,1,1,1]
+e=[]
+for i in l[::1]:
+    if i not in e:
+      a=l.count(i)
+      print("count of ",i ,"is ",a)
+      e.append(i)
+    
+    
+    
+    
+    
